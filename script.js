@@ -16,19 +16,19 @@ const results = document.getElementById('results');
 
 const catalog = [
   {
-    id: 'rice',
-    name: 'Rice',
+    id: 'Miyawaki Forest',
+    name: 'Miyawaki Forest',
     type: 'Crop',
-    image: 'assets/rice.svg',
+    image: 'assets/miyawaki-forest.svg',
     benefits: 'High yield, staple food source, and strong support for food security.',
     uses: 'Cooking, flour production, animal feed, and food processing.',
     publishedBy: 'Oikos Orchard and Farm'
   },
   {
-    id: 'corn',
-    name: 'Corn',
+    id: 'DolDol',
+    name: 'DolDol',
     type: 'Crop',
-    image: 'assets/corn.svg',
+    image: 'assets/004.JPG',
     benefits: 'Excellent nutrition, versatile use, and high market value for farmers.',
     uses: 'Human consumption, livestock feed, and industrial maize products.',
     publishedBy: 'Oikos Orchard and Farm'
@@ -37,16 +37,16 @@ const catalog = [
     id: 'banana',
     name: 'Banana',
     type: 'Crop',
-    image: 'assets/banana.svg',
+    image: 'assets/banana.jpg',
     benefits: 'Fast-growing, dependable income source, and rich in nutrients.',
     uses: 'Fresh fruit, juice, snacks, and value-added food products.',
     publishedBy: 'Oikos Orchard and Farm'
   },
   {
-    id: 'goat',
-    name: 'Goat',
+    id: 'Pig',
+    name: 'Pig',
     type: 'Livestock',
-    image: 'assets/goat.svg',
+    image: 'assets/Pigs.jpg',
     benefits: 'Adaptable, efficient for small farms, and useful for meat and milk.',
     uses: 'Meat production, dairy, breeding, and farm diversification.',
     publishedBy: 'Oikos Orchard and Farm'
@@ -166,21 +166,52 @@ modal.addEventListener('click', (event) => {
 
 guestForm.addEventListener('submit', (event) => {
   event.preventDefault();
-  const name = document.getElementById('name').value.trim();
-  const company = document.getElementById('company').value.trim();
 
-  closeModal(false);
+  const formData = new FormData(guestForm);
+  formData.set('_subject', 'New guest/customer inquiry from Oikos Orchard & Farm');
 
-  if (pendingItem) {
-    showDetail(pendingItem);
-    pendingItem = null;
-    return;
-  }
+  fetch('https://formspree.io/f/mvzekrba', {
+    method: 'POST',
+    body: formData,
+    headers: {
+      Accept: 'application/json'
+    }
+  })
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error('Unable to submit guest details.');
+      }
+      return response.json().catch(() => ({}));
+    })
+    .then(() => {
+      closeModal(false);
 
-  generateQRCodes();
-  qrSection.classList.add('visible');
-  detailSection.classList.remove('visible');
-  searchSection.classList.remove('visible');
+      if (pendingItem) {
+        showDetail(pendingItem);
+        pendingItem = null;
+        return;
+      }
+
+      generateQRCodes();
+      qrSection.classList.add('visible');
+      detailSection.classList.remove('visible');
+      searchSection.classList.remove('visible');
+    })
+    .catch((error) => {
+      console.error(error);
+      closeModal(false);
+
+      if (pendingItem) {
+        showDetail(pendingItem);
+        pendingItem = null;
+        return;
+      }
+
+      generateQRCodes();
+      qrSection.classList.add('visible');
+      detailSection.classList.remove('visible');
+      searchSection.classList.remove('visible');
+    });
 });
 
 backBtn.addEventListener('click', hideDetail);
