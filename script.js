@@ -53,14 +53,23 @@ const catalog = [
   }
 ];
 
+let pendingItem = null;
+
 function openModal() {
   modal.classList.add('active');
   modal.setAttribute('aria-hidden', 'false');
 }
 
-function closeModal() {
+function closeModal(clearPending = false) {
   modal.classList.remove('active');
   modal.setAttribute('aria-hidden', 'true');
+  if (clearPending) {
+    pendingItem = null;
+  }
+}
+
+function dismissModal() {
+  closeModal(true);
 }
 
 function generateQRCodes() {
@@ -95,7 +104,8 @@ function generateQRCodes() {
       const itemId = qrItem.getAttribute('data-item-id');
       const item = catalog.find(i => i.id === itemId);
       if (item) {
-        showDetail(item);
+        pendingItem = item;
+        openModal();
       }
     }
   });
@@ -148,10 +158,10 @@ function renderCatalog(query = '') {
 }
 
 openModalBtn.addEventListener('click', openModal);
-closeModalBtn.addEventListener('click', closeModal);
+closeModalBtn.addEventListener('click', dismissModal);
 modal.addEventListener('click', (event) => {
   if (event.target === modal) {
-    closeModal();
+    dismissModal();
   }
 });
 
@@ -159,8 +169,15 @@ guestForm.addEventListener('submit', (event) => {
   event.preventDefault();
   const name = document.getElementById('name').value.trim();
   const company = document.getElementById('company').value.trim();
-  
-  closeModal();
+
+  closeModal(false);
+
+  if (pendingItem) {
+    showDetail(pendingItem);
+    pendingItem = null;
+    return;
+  }
+
   generateQRCodes();
   qrSection.classList.add('visible');
   detailSection.classList.remove('visible');
