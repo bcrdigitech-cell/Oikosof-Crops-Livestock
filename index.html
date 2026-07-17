@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Oikos Orchard & Farm</title>
+    <link rel="icon" href="./assets/636763757_913258778124231_1326778520082769095_n (1).jpg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
   </head>
   <body>
     <div class="page-shell">
@@ -54,6 +56,20 @@
         </form>
 
         <div class="results-grid" id="results"></div>
+      </section>
+
+      <section class="qr-section" id="qrSection" aria-live="polite">
+        <div class="section-heading">
+          <p class="eyebrow">Scan or select</p>
+          <h2>QR Code Scanner</h2>
+          <p>Tap on any QR code below to view crop or livestock details.</p>
+        </div>
+        <div class="qr-grid" id="qrGrid"></div>
+      </section>
+
+      <section class="detail-section" id="detailSection" aria-live="polite">
+        <button class="back-btn" id="backBtn">← Back to QR Codes</button>
+        <div class="detail-card" id="detailContent"></div>
       </section>
     </div>
 

@@ -3,6 +3,11 @@ const openModalBtn = document.getElementById('openModalBtn');
 const closeModalBtn = document.getElementById('closeModalBtn');
 const guestForm = document.getElementById('guestForm');
 const searchSection = document.getElementById('searchSection');
+const qrSection = document.getElementById('qrSection');
+const detailSection = document.getElementById('detailSection');
+const qrGrid = document.getElementById('qrGrid');
+const detailContent = document.getElementById('detailContent');
+const backBtn = document.getElementById('backBtn');
 const searchTitle = document.getElementById('searchTitle');
 const searchMessage = document.getElementById('searchMessage');
 const searchForm = document.getElementById('searchForm');
@@ -11,6 +16,7 @@ const results = document.getElementById('results');
 
 const catalog = [
   {
+    id: 'rice',
     name: 'Rice',
     type: 'Crop',
     image: 'assets/rice.svg',
@@ -19,6 +25,7 @@ const catalog = [
     publishedBy: 'Oikos Orchard and Farm'
   },
   {
+    id: 'corn',
     name: 'Corn',
     type: 'Crop',
     image: 'assets/corn.svg',
@@ -27,6 +34,7 @@ const catalog = [
     publishedBy: 'Oikos Orchard and Farm'
   },
   {
+    id: 'banana',
     name: 'Banana',
     type: 'Crop',
     image: 'assets/banana.svg',
@@ -35,6 +43,7 @@ const catalog = [
     publishedBy: 'Oikos Orchard and Farm'
   },
   {
+    id: 'goat',
     name: 'Goat',
     type: 'Livestock',
     image: 'assets/goat.svg',
@@ -52,6 +61,64 @@ function openModal() {
 function closeModal() {
   modal.classList.remove('active');
   modal.setAttribute('aria-hidden', 'true');
+}
+
+function generateQRCodes() {
+  qrGrid.innerHTML = '';
+  catalog.forEach((item, index) => {
+    const qrContainer = document.createElement('div');
+    qrContainer.className = 'qr-item';
+    qrContainer.setAttribute('data-item-id', item.id);
+    qrContainer.setAttribute('data-index', index);
+    qrContainer.innerHTML = `
+      <div id="qr-${item.id}"></div>
+      <p class="qr-item-name">${item.name}</p>
+      <p class="qr-item-type">${item.type}</p>
+    `;
+    qrGrid.appendChild(qrContainer);
+
+    // Generate QR code for this item
+    const qrData = JSON.stringify({ id: item.id, name: item.name });
+    new QRCode(document.getElementById(`qr-${item.id}`), {
+      text: qrData,
+      width: 128,
+      height: 128,
+      colorDark: '#2f6b3d',
+      colorLight: '#ffffff'
+    });
+  });
+  
+  // Use event delegation on qrGrid instead of individual items
+  qrGrid.addEventListener('click', (event) => {
+    const qrItem = event.target.closest('.qr-item');
+    if (qrItem) {
+      const itemId = qrItem.getAttribute('data-item-id');
+      const item = catalog.find(i => i.id === itemId);
+      if (item) {
+        showDetail(item);
+      }
+    }
+  });
+}
+
+function showDetail(item) {
+  detailContent.innerHTML = `
+    <img src="${item.image}" alt="${item.name}" class="detail-card-image" />
+    <div class="detail-card-content">
+      <span class="detail-card-type">${item.type}</span>
+      <h2>${item.name}</h2>
+      <p><span class="detail-card-label">Benefits:</span><br />${item.benefits}</p>
+      <p><span class="detail-card-label">Uses:</span><br />${item.uses}</p>
+      <p class="detail-card-publisher">Published by: ${item.publishedBy}</p>
+    </div>
+  `;
+  qrSection.classList.remove('visible');
+  detailSection.classList.add('visible');
+}
+
+function hideDetail() {
+  detailSection.classList.remove('visible');
+  qrSection.classList.add('visible');
 }
 
 function renderCatalog(query = '') {
@@ -92,15 +159,15 @@ guestForm.addEventListener('submit', (event) => {
   event.preventDefault();
   const name = document.getElementById('name').value.trim();
   const company = document.getElementById('company').value.trim();
-  searchTitle.textContent = `Welcome, ${name || 'guest'}`;
-  searchMessage.textContent = company
-    ? `Showing crop and livestock results tailored for ${company}.`
-    : 'Showing crop and livestock results for your search.';
-  searchSection.classList.add('visible');
+  
   closeModal();
-  searchInput.focus();
-  renderCatalog(searchInput.value);
+  generateQRCodes();
+  qrSection.classList.add('visible');
+  detailSection.classList.remove('visible');
+  searchSection.classList.remove('visible');
 });
+
+backBtn.addEventListener('click', hideDetail);
 
 searchForm.addEventListener('submit', (event) => {
   event.preventDefault();
