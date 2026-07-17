@@ -74,11 +74,12 @@ function dismissModal() {
 
 function generateQRCodes() {
   qrGrid.innerHTML = '';
-  catalog.forEach((item, index) => {
+  const baseUrl = window.location.href.split('?')[0];
+
+  catalog.forEach((item) => {
     const qrContainer = document.createElement('div');
     qrContainer.className = 'qr-item';
     qrContainer.setAttribute('data-item-id', item.id);
-    qrContainer.setAttribute('data-index', index);
     qrContainer.innerHTML = `
       <div id="qr-${item.id}"></div>
       <p class="qr-item-name">${item.name}</p>
@@ -86,30 +87,28 @@ function generateQRCodes() {
     `;
     qrGrid.appendChild(qrContainer);
 
-    // Generate QR code for this item
-    const qrData = JSON.stringify({ id: item.id, name: item.name });
+    const qrUrl = `${baseUrl}?item=${item.id}`;
     new QRCode(document.getElementById(`qr-${item.id}`), {
-      text: qrData,
+      text: qrUrl,
       width: 128,
       height: 128,
       colorDark: '#2f6b3d',
       colorLight: '#ffffff'
     });
   });
-  
-  // Use event delegation on qrGrid instead of individual items
-  qrGrid.addEventListener('click', (event) => {
-    const qrItem = event.target.closest('.qr-item');
-    if (qrItem) {
-      const itemId = qrItem.getAttribute('data-item-id');
-      const item = catalog.find(i => i.id === itemId);
-      if (item) {
-        pendingItem = item;
-        openModal();
-      }
-    }
-  });
 }
+
+qrGrid.addEventListener('click', (event) => {
+  const qrItem = event.target.closest('.qr-item');
+  if (qrItem) {
+    const itemId = qrItem.getAttribute('data-item-id');
+    const item = catalog.find(i => i.id === itemId);
+    if (item) {
+      pendingItem = item;
+      openModal();
+    }
+  }
+});
 
 function showDetail(item) {
   detailContent.innerHTML = `
@@ -195,4 +194,17 @@ searchInput.addEventListener('input', () => {
   renderCatalog(searchInput.value);
 });
 
+function initFromQuery() {
+  const params = new URLSearchParams(window.location.search);
+  const itemId = params.get('item');
+  if (itemId) {
+    const item = catalog.find((i) => i.id === itemId);
+    if (item) {
+      pendingItem = item;
+      openModal();
+    }
+  }
+}
+
 renderCatalog('');
+initFromQuery();
