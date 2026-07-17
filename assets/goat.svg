@@ -1,0 +1,9 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#f8efe0"/>
+  <rect y="340" width="800" height="160" fill="#8ca95d"/>
+  <path d="M250 190c0-70 54-120 120-120 54 0 100 34 112 88 18-18 36-26 54-26 44 0 80 36 80 80 0 48-36 84-80 84-24 0-44-8-60-24-28 24-60 36-96 36-62 0-110-42-120-104Z" fill="#a77a4f"/>
+  <path d="M290 168c24-40 70-66 118-66 42 0 80 18 103 46" stroke="#6f4e2a" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M212 318c44 18 100 22 154 14" stroke="#5d3d20" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M470 340c34 18 80 24 124 16" stroke="#5d3d20" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <text x="400" y="452" text-anchor="middle" font-family="Book Antiqua, Georgia, serif" font-size="44" fill="#4a3a1f">Goat</text>
+</svg>

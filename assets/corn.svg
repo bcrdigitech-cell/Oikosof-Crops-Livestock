@@ -1,0 +1,10 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#f7f0df"/>
+  <rect y="340" width="800" height="160" fill="#7ca34c"/>
+  <path d="M210 180c0-70 60-120 120-120 30 0 58 10 80 28-28-24-66-38-108-38-74 0-132 48-132 130 0 46 18 84 46 116-28-30-46-74-46-116Z" fill="#e6c244"/>
+  <path d="M370 180c0-66 46-122 112-122 68 0 120 56 120 120 0 44-18 82-48 112 22-18 38-44 44-74-12 12-24 18-42 18-58 0-98-40-120-94Z" fill="#db9d1f"/>
+  <path d="M280 300c42 26 84 38 128 38 48 0 90-14 132-42" stroke="#4b6e29" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M220 110c-30 56-28 122 0 188" stroke="#4b6e29" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M550 110c-30 56-28 122 0 188" stroke="#4b6e29" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <text x="400" y="452" text-anchor="middle" font-family="Book Antiqua, Georgia, serif" font-size="44" fill="#3d4f1e">Corn</text>
+</svg>

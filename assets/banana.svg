@@ -1,0 +1,9 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#f9f2e3"/>
+  <rect y="340" width="800" height="160" fill="#7ca34b"/>
+  <path d="M230 320c20-132 108-220 226-220 110 0 182 64 182 168 0 74-44 124-112 154-64 28-142 28-224 0-56-18-100-50-120-102 18-28 36-47 48-0Z" fill="#f7d64a"/>
+  <path d="M250 250c24-78 96-122 174-122 74 0 128 34 156 100" stroke="#6b8a2f" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M236 212c34-36 86-62 142-62" stroke="#4d6c28" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M430 320c48 12 96 10 144-4" stroke="#4d6c28" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <text x="400" y="452" text-anchor="middle" font-family="Book Antiqua, Georgia, serif" font-size="44" fill="#3e4c19">Banana</text>
+</svg>

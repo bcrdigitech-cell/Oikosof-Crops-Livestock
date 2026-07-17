@@ -1,0 +1,14 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2f6b3d"/>
+      <stop offset="100%" stop-color="#7ca34c"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="90" fill="url(#grad)" />
+  <path d="M60 110 Q100 60 140 110 Q120 130 100 120 Q80 130 60 110 Z" fill="#f5efe6" />
+  <path d="M100 130 L100 160" stroke="#f5efe6" stroke-width="12" stroke-linecap="round" />
+  <path d="M78 102 C82 90 98 90 102 102" stroke="#2f6b3d" stroke-width="10" fill="none" stroke-linecap="round" />
+  <path d="M98 102 C102 90 118 90 122 102" stroke="#2f6b3d" stroke-width="10" fill="none" stroke-linecap="round" />
+  <text x="100" y="185" text-anchor="middle" font-family="Book Antiqua, Georgia, serif" font-size="28" fill="#ffffff">O</text>
+</svg>

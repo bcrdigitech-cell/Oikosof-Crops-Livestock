@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oikos Orchard & Farm</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-block">
+          <div class="brand-mark">
+            <img src="./assets/636763757_913258778124231_1326778520082769095_n (1).jpg" alt="Oikos Orchard & Farm logo" />
+          </div>
+          <div>
+            <p class="brand-name">Oikos Orchard & Farm</p>
+            <p class="brand-tag">Professional agricultural insights</p>
+          </div>
+        </div>
+        <a class="top-link" href="#searchSection">Explore catalog</a>
+      </header>
+
+      <main class="hero">
+        <section class="hero-copy">
+          <p class="eyebrow">Customer access portal</p>
+          <h1>Discover crops and livestock with confidence.</h1>
+          <p class="hero-text">
+            Welcome guests and customers to a refined platform where agricultural information is easy to explore and understand.
+          </p>
+          <button class="primary-btn" id="openModalBtn" type="button">Get started</button>
+        </section>
+
+        <aside class="hero-card">
+          <h2>Trusted information</h2>
+          <ul>
+            <li>Crop and livestock search</li>
+            <li>Benefits and uses overview</li>
+            <li>Professional resources from Oikos Orchard & Farm</li>
+          </ul>
+        </aside>
+      </main>
+
+      <section class="search-section" id="searchSection" aria-live="polite">
+        <div class="section-heading">
+          <p class="eyebrow">Search portal</p>
+          <h2 id="searchTitle">Search crops & livestock</h2>
+          <p id="searchMessage">Enter a crop or livestock name to view benefits, uses, and published details.</p>
+        </div>
+
+        <form class="search-form" id="searchForm">
+          <input id="searchInput" type="search" placeholder="Try rice, corn, goat..." />
+          <button type="submit">Search</button>
+        </form>
+
+        <div class="results-grid" id="results"></div>
+      </section>
+    </div>
+
+    <div class="modal-backdrop" id="guestModal" aria-hidden="true">
+      <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="close-btn" id="closeModalBtn" type="button" aria-label="Close">×</button>
+        <h2 id="modalTitle">Guest / Customer Details</h2>
+        <p class="modal-text">Please fill out the form below to access the crop and livestock search experience.</p>
+
+        <form class="guest-form" id="guestForm">
+          <label>
+            Name
+            <input type="text" id="name" name="name" required />
+          </label>
+
+          <label>
+            Contact no.
+            <input type="tel" id="contact" name="contact" required />
+          </label>
+
+          <label>
+            Email
+            <input type="email" id="email" name="email" required />
+          </label>
+
+          <label>
+            Company (Optional)
+            <input type="text" id="company" name="company" />
+          </label>
+
+          <button type="submit">Continue</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
