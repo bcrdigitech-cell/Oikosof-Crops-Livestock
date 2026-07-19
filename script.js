@@ -2,6 +2,9 @@ const modal = document.getElementById('guestModal');
 const openModalBtn = document.getElementById('openModalBtn');
 const closeModalBtn = document.getElementById('closeModalBtn');
 const guestForm = document.getElementById('guestForm');
+const modalTitle = document.getElementById('modalTitle');
+const modalText = document.querySelector('.modal-text');
+const guestSubmitButton = guestForm.querySelector('button[type="submit"]');
 const searchSection = document.getElementById('searchSection');
 const qrSection = document.getElementById('qrSection');
 const detailSection = document.getElementById('detailSection');
@@ -55,7 +58,25 @@ const catalog = [
 
 let pendingItem = null;
 
+function updateModalContent() {
+  if (pendingItem) {
+    modalTitle.textContent = 'Complete your details';
+    modalText.textContent = 'Please fill out the form to continue to the selected crop or livestock details.';
+    if (guestSubmitButton) {
+      guestSubmitButton.textContent = 'Continue to details';
+    }
+    return;
+  }
+
+  modalTitle.textContent = 'Guest / Customer Details';
+  modalText.textContent = 'Please fill out the form below to access the crop and livestock search experience.';
+  if (guestSubmitButton) {
+    guestSubmitButton.textContent = 'Continue';
+  }
+}
+
 function openModal() {
+  updateModalContent();
   modal.classList.add('active');
   modal.setAttribute('aria-hidden', 'false');
 }
@@ -164,54 +185,59 @@ modal.addEventListener('click', (event) => {
   }
 });
 
-guestForm.addEventListener('submit', (event) => {
+guestForm.addEventListener('submit', async (event) => {
   event.preventDefault();
 
   const formData = new FormData(guestForm);
+  const name = String(formData.get('name') || '').trim();
+  const contact = String(formData.get('contact') || '').trim();
+  const email = String(formData.get('email') || '').trim();
+
+  if (!name || !contact || !email) {
+    modalText.textContent = 'Please complete your name, contact number, and email before continuing.';
+    return;
+  }
+
+  if (guestSubmitButton) {
+    guestSubmitButton.disabled = true;
+    guestSubmitButton.textContent = 'Submitting...';
+  }
+
   formData.set('_subject', 'New guest/customer inquiry from Oikos Orchard & Farm');
 
-  fetch('https://formspree.io/f/mvzekrba', {
-    method: 'POST',
-    body: formData,
-    headers: {
-      Accept: 'application/json'
-    }
-  })
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error('Unable to submit guest details.');
+  try {
+    const response = await fetch('https://formspree.io/f/mvzekrba', {
+      method: 'POST',
+      body: formData,
+      headers: {
+        Accept: 'application/json'
       }
-      return response.json().catch(() => ({}));
-    })
-    .then(() => {
-      closeModal(false);
-
-      if (pendingItem) {
-        showDetail(pendingItem);
-        pendingItem = null;
-        return;
-      }
-
-      generateQRCodes();
-      qrSection.classList.add('visible');
-      detailSection.classList.remove('visible');
-      searchSection.classList.remove('visible');
-    })
-    .catch((error) => {
-      console.error(error);
-      closeModal(false);
-
-      if (pendingItem) {
-        showDetail(pendingItem);
-        pendingItem = null;
-        return;
-      }
-
-      generateQRCodes();
-      qrSection.classList.add('visible');
-      detailSection.classList.remove('visible');
-      searchSection.classList.remove('visible');
     });
+
+    if (!response.ok) {
+      throw new Error('Unable to submit guest details.');
+    }
+  } catch (error) {
+    console.warn('Guest form submission could not be completed. Continuing to the selected item.', error);
+  } finally {
+    if (guestSubmitButton) {
+      guestSubmitButton.disabled = false;
+      guestSubmitButton.textContent = pendingItem ? 'Continue to details' : 'Continue';
+    }
+
+    closeModal(false);
+
+    if (pendingItem) {
+      showDetail(pendingItem);
+      pendingItem = null;
+      return;
+    }
+
+    generateQRCodes();
+    qrSection.classList.add('visible');
+    detailSection.classList.remove('visible');
+    searchSection.classList.remove('visible');
+  }
 });
 
 backBtn.addEventListener('click', hideDetail);
