@@ -108,7 +108,7 @@ function generateQRCodes() {
     `;
     qrGrid.appendChild(qrContainer);
 
-    const qrUrl = `${baseUrl}?item=${item.id}`;
+    const qrUrl = `${baseUrl}?item=${encodeURIComponent(item.id)}`;
     new QRCode(document.getElementById(`qr-${item.id}`), {
       text: qrUrl,
       width: 128,
@@ -117,6 +117,12 @@ function generateQRCodes() {
       colorLight: '#ffffff'
     });
   });
+}
+
+function showQrSection() {
+  qrSection.classList.add('visible');
+  detailSection.classList.remove('visible');
+  searchSection.classList.remove('visible');
 }
 
 qrGrid.addEventListener('click', (event) => {
@@ -253,15 +259,21 @@ searchInput.addEventListener('input', () => {
 
 function initFromQuery() {
   const params = new URLSearchParams(window.location.search);
-  const itemId = params.get('item');
-  if (itemId) {
-    const item = catalog.find((i) => i.id === itemId);
-    if (item) {
-      pendingItem = item;
-      openModal();
-    }
+  const itemId = params.get('item') || params.get('itemId');
+
+  if (!itemId) {
+    return;
+  }
+
+  const item = catalog.find((i) => i.id === itemId);
+  if (item) {
+    pendingItem = item;
+    showQrSection();
+    openModal();
   }
 }
 
 renderCatalog('');
+generateQRCodes();
+showQrSection();
 initFromQuery();
