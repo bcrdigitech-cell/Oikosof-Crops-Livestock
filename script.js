@@ -58,11 +58,11 @@ const catalog = [
 
 let pendingItem = null;
 const guestAccessKey = 'oikosGuestAccessGranted';
-let guestAccessGranted = sessionStorage.getItem(guestAccessKey) === 'true';
+let guestAccessGranted = localStorage.getItem(guestAccessKey) === 'true';
 
 function setGuestAccessGranted(value) {
   guestAccessGranted = value;
-  sessionStorage.setItem(guestAccessKey, String(value));
+  localStorage.setItem(guestAccessKey, String(value));
 }
 
 function updateModalContent() {
