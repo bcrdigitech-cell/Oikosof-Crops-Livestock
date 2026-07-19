@@ -81,6 +81,14 @@ function openModal() {
   modal.setAttribute('aria-hidden', 'false');
 }
 
+function beginItemFlow(item) {
+  pendingItem = item;
+  showQrSection();
+  window.requestAnimationFrame(() => {
+    openModal();
+  });
+}
+
 function closeModal(clearPending = false) {
   modal.classList.remove('active');
   modal.setAttribute('aria-hidden', 'true');
@@ -131,8 +139,7 @@ qrGrid.addEventListener('click', (event) => {
     const itemId = qrItem.getAttribute('data-item-id');
     const item = catalog.find(i => i.id === itemId);
     if (item) {
-      pendingItem = item;
-      openModal();
+      beginItemFlow(item);
     }
   }
 });
@@ -267,9 +274,9 @@ function initFromQuery() {
 
   const item = catalog.find((i) => i.id === itemId);
   if (item) {
-    pendingItem = item;
-    showQrSection();
-    openModal();
+    const cleanUrl = `${window.location.pathname}`;
+    window.history.replaceState({}, '', cleanUrl);
+    beginItemFlow(item);
   }
 }
 
