@@ -57,6 +57,13 @@ const catalog = [
 ];
 
 let pendingItem = null;
+const guestAccessKey = 'oikosGuestAccessGranted';
+let guestAccessGranted = sessionStorage.getItem(guestAccessKey) === 'true';
+
+function setGuestAccessGranted(value) {
+  guestAccessGranted = value;
+  sessionStorage.setItem(guestAccessKey, String(value));
+}
 
 function updateModalContent() {
   if (pendingItem) {
@@ -82,6 +89,11 @@ function openModal() {
 }
 
 function beginItemFlow(item) {
+  if (guestAccessGranted) {
+    showDetail(item);
+    return;
+  }
+
   pendingItem = item;
   showQrSection();
   window.requestAnimationFrame(() => {
@@ -190,7 +202,14 @@ function renderCatalog(query = '') {
   `).join('');
 }
 
-openModalBtn.addEventListener('click', openModal);
+openModalBtn.addEventListener('click', () => {
+  if (guestAccessGranted) {
+    showQrSection();
+    return;
+  }
+
+  openModal();
+});
 closeModalBtn.addEventListener('click', dismissModal);
 modal.addEventListener('click', (event) => {
   if (event.target === modal) {
@@ -233,6 +252,8 @@ guestForm.addEventListener('submit', async (event) => {
   } catch (error) {
     console.warn('Guest form submission could not be completed. Continuing to the selected item.', error);
   } finally {
+    setGuestAccessGranted(true);
+
     if (guestSubmitButton) {
       guestSubmitButton.disabled = false;
       guestSubmitButton.textContent = pendingItem ? 'Continue to details' : 'Continue';
