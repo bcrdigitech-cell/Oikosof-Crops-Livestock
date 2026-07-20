@@ -19,39 +19,354 @@ const results = document.getElementById('results');
 
 const catalog = [
   {
-    id: 'Miyawaki Forest',
-    name: 'Miyawaki Forest',
-    type: 'Crop',
+    id: 'Kalingag Cebu Cinnamon',
+    name: 'Kalingag Cebu Cinnamon',
+    type: 'Tree',
     image: 'assets/miyawaki-forest.svg',
-    benefits: 'High yield, staple food source, and strong support for food security.',
-    uses: 'Cooking, flour production, animal feed, and food processing.',
+    benefits: 'Conserves endemic Philippine flora, supports wildlife and pollinators, produces aromatic essential oils, and suits forest restoration.',
+    uses: 'Culinary spice, herbal tea, essential oil production, and reforestation projects.',
     publishedBy: 'Oikos Orchard and Farm'
   },
   {
-    id: 'DolDol',
-    name: 'DolDol',
-    type: 'Crop',
-    image: 'assets/004.JPG',
-    benefits: 'Excellent nutrition, versatile use, and high market value for farmers.',
-    uses: 'Human consumption, livestock feed, and industrial maize products.',
+    id: 'Mana Mindanao Cinnamon',
+    name: 'Mana Mindanao Cinnamon',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Supports biodiversity conservation, provides nectar for pollinators, offers potential essential oils, and helps restore degraded forests.',
+    uses: 'Spice, herbal medicine, essential oil extraction, and agroforestry.',
     publishedBy: 'Oikos Orchard and Farm'
   },
   {
-    id: 'banana',
-    name: 'Banana',
-    type: 'Crop',
-    image: 'assets/banana.jpg',
-    benefits: 'Fast-growing, dependable income source, and rich in nutrients.',
-    uses: 'Fresh fruit, juice, snacks, and value-added food products.',
+    id: 'Philippine Cinnamon',
+    name: 'Philippine Cinnamon',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Rich in natural antioxidants, conserves native forests, provides a high-value aromatic tree, and supports watershed protection.',
+    uses: 'Spice, herbal tea, traditional medicine, and essential oils.',
     publishedBy: 'Oikos Orchard and Farm'
   },
   {
-    id: 'Pig',
-    name: 'Pig',
-    type: 'Livestock',
-    image: 'assets/Pigs.jpg',
-    benefits: 'Adaptable, efficient for small farms, and useful for meat and milk.',
-    uses: 'Meat production, dairy, breeding, and farm diversification.',
+    id: 'Narra',
+    name: 'Narra',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Excellent shade tree, improves soil fertility, stores carbon, and supports wildlife.',
+    uses: 'Premium furniture, flooring, cabinetry, and landscaping.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Toog',
+    name: 'Toog',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Excellent carbon sink, protects watersheds, provides wildlife habitat, and offers valuable timber.',
+    uses: 'Construction lumber, reforestation, and conservation forests.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Tugas Molave',
+    name: 'Tugas / Molave',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Long-lasting timber, drought tolerant, excellent native reforestation species, and high economic value.',
+    uses: 'House posts, outdoor furniture, bridges, and woodcraft.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Dao',
+    name: 'Dao',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Prevents soil erosion, provides wildlife habitat, offers excellent urban shade, and supports carbon sequestration.',
+    uses: 'Landscaping, timber, reforestation, and roadside planting.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'White Lauan',
+    name: 'White Lauan',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Supports carbon storage, watershed protection, wildlife habitat, and forest regeneration.',
+    uses: 'Lumber, plywood, veneer, and reforestation.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Red Lauan',
+    name: 'Red Lauan',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Conserves native ecosystems, acts as an excellent carbon sink, supports biodiversity, and provides high-value timber.',
+    uses: 'Furniture, construction, veneer, and forest restoration.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Tindalo',
+    name: 'Tindalo',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Highly durable timber, excellent shade tree, long lifespan, and valuable native species.',
+    uses: 'Luxury furniture, flooring, boat building, and interior finishing.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Kamagong',
+    name: 'Kamagong',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Produces premium hardwood, supports wildlife, offers a long-lived native tree, and serves as a valuable genetic resource.',
+    uses: 'Fine woodworking, tool handles, decorative carvings, and conservation planting.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Banaba',
+    name: 'Banaba',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Attractive ornamental, supports pollinators, offers traditional herbal value, and improves urban landscapes.',
+    uses: 'Herbal tea, landscaping, shade tree, and reforestation.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Ylang Ylang',
+    name: 'Ylang-ylang',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Excellent pollinator tree, valuable essential oil source, beautiful ornamental, and supports biodiversity.',
+    uses: 'Perfume production, essential oils, aromatherapy, and landscaping.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Kupang',
+    name: 'Kupang',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Improves soil fertility, provides wildlife habitat, grows fast, and supports carbon sequestration.',
+    uses: 'Agroforestry, shade, firewood, and soil improvement.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Almaciga',
+    name: 'Almaciga',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Produces premium resin, conserves native forests, acts as an excellent watershed tree, and is a long-lived species.',
+    uses: 'Resin production, varnish, paint, and reforestation.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Lagnob',
+    name: 'Lagnob',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Provides year-round food for birds and bats, supports biodiversity, controls erosion, and acts as an excellent watershed tree.',
+    uses: 'Reforestation, wildlife habitat, shade, and landscaping.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Bogo',
+    name: 'Bogo',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Supports wildlife, improves forest diversity, stores carbon, and stabilizes soil.',
+    uses: 'Reforestation, timber, and shade tree.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Antsoan',
+    name: 'Antsoan',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Beautifies landscapes, attracts bees and butterflies, and provides seasonal shade.',
+    uses: 'Parks, gardens, and avenue planting.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Bangkal',
+    name: 'Bangkal',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Controls riverbank erosion, provides wildlife habitat, grows rapidly, and supports carbon sequestration.',
+    uses: 'Riparian restoration, landscaping, and timber.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Catmon',
+    name: 'Catmon',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Supports wildlife, offers ornamental flowers, provides a native fruit source, and aids forest restoration.',
+    uses: 'Food flavoring, landscaping, and reforestation.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Anunang',
+    name: 'Anunang',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Provides a wildlife food source, is drought tolerant, and offers shade.',
+    uses: 'Timber, agroforestry, and landscaping.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Bagras',
+    name: 'Bagras',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Rapid carbon capture, excellent windbreak, and fast timber production.',
+    uses: 'Pulpwood, construction, and ornamental planting.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Red Nato',
+    name: 'Red Nato',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Durable wood, conserves native forests, and supports biodiversity.',
+    uses: 'Furniture, flooring, and interior woodwork.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Dita',
+    name: 'Dita',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Air purification, shade, and medicinal importance.',
+    uses: 'Herbal medicine, landscaping, and reforestation.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Yakal',
+    name: 'Yakal',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Extremely durable timber, carbon storage, and native forest conservation.',
+    uses: 'Bridges, marine construction, and heavy timber structures.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Antipolo',
+    name: 'Antipolo',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Wildlife habitat, good shade, and soil protection.',
+    uses: 'Bark fiber, landscaping, and reforestation.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Talisay',
+    name: 'Talisay',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Salt tolerant, excellent shade, and prevents coastal erosion.',
+    uses: 'Coastal landscaping, windbreak, and ornamental planting.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Bani',
+    name: 'Bani',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Improves soil fertility, drought resistant, and supports pollinators.',
+    uses: 'Agroforestry, shade, biofuel research, and windbreak.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Pugahan Fishtail Palm',
+    name: 'Pugahan Fishtail Palm',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Ornamental value, wildlife habitat, and tropical landscape enhancement.',
+    uses: 'Landscaping, gardens, and parks.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Agoho',
+    name: 'Agoho',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Windbreak, stabilizes sand dunes, and offers coastal protection.',
+    uses: 'Coastal planting, firewood, and windbreaks.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Balete',
+    name: 'Balete',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Keystone species for wildlife, watershed protection, and support for birds and bats.',
+    uses: 'Heritage landscaping, forest restoration, and ecotourism sites.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Hagakhak',
+    name: 'Hagakhak',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Supports biodiversity, soil stabilization, and carbon sequestration.',
+    uses: 'Reforestation, watershed rehabilitation, and native landscaping.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Malabayabas',
+    name: 'Malabayabas',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Excellent shade, supports wildlife, and conserves soil.',
+    uses: 'Landscaping, reforestation, and parks.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Malabulak',
+    name: 'Malabulak',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Pollinator-friendly, ornamental beauty, and wildlife habitat.',
+    uses: 'Landscaping, shade, and restoration planting.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Inyam',
+    name: 'Inyam',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Enhances forest diversity, provides habitat, and improves ecosystem resilience.',
+    uses: 'Reforestation and conservation planting.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Doldol',
+    name: 'Doldol',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Soil stabilization, carbon storage, and support for native wildlife.',
+    uses: 'Forest restoration and watershed rehabilitation.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Himbabao',
+    name: 'Himbabao',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Edible plant, fast-growing, and supports biodiversity.',
+    uses: 'Traditional cuisine, agroforestry, and reforestation.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Lauat',
+    name: 'Lauat',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Conserves native biodiversity, provides shade, and protects watersheds.',
+    uses: 'Reforestation and native landscaping.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Lagnob Duplicate',
+    name: 'Lagnob',
+    type: 'Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Important food source for birds, bats, and mammals, excellent watershed species, enhances biodiversity, and prevents soil erosion.',
+    uses: 'Forest restoration, wildlife conservation, parks and large landscapes, and riparian planting.',
     publishedBy: 'Oikos Orchard and Farm'
   }
 ];
