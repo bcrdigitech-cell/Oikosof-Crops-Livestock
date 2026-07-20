@@ -368,6 +368,249 @@ const catalog = [
     benefits: 'Important food source for birds, bats, and mammals, excellent watershed species, enhances biodiversity, and prevents soil erosion.',
     uses: 'Forest restoration, wildlife conservation, parks and large landscapes, and riparian planting.',
     publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Mango',
+    name: 'Mango',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Rich in vitamins A and C, an excellent source of antioxidants, provides shade and habitat for wildlife, and is a high-value commercial fruit.',
+    uses: 'Fresh fruit, dried mangoes, juices and smoothies, desserts, and preserves.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Jackfruit',
+    name: 'Jackfruit',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Rich in dietary fiber, high in vitamin C and potassium, productive and long-lived, and suitable for agroforestry.',
+    uses: 'Fresh fruit, chips, candies, cooking young fruit, and wood for light furniture.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Durian',
+    name: 'Durian',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Excellent source of energy, rich in vitamins, minerals, and healthy fats, and a high-value commercial crop.',
+    uses: 'Fresh fruit, ice cream, pastries, candies, and frozen pulp.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Mangosteen',
+    name: 'Mangosteen',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Rich in antioxidants, excellent source of vitamin C, and high market value.',
+    uses: 'Fresh fruit, juice, jam, and herbal products.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Lanzones',
+    name: 'Lanzones',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Good source of vitamin C, supports rural livelihoods, and offers a long productive lifespan.',
+    uses: 'Fresh fruit, desserts, candies, and processed fruit products.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Rambutan',
+    name: 'Rambutan',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Rich in vitamin C, attractive commercial fruit, and a good income source for farmers.',
+    uses: 'Fresh fruit, juice, jams, and desserts.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Avocado',
+    name: 'Avocado',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Rich in healthy monounsaturated fats, excellent source of potassium, and high nutritional value.',
+    uses: 'Fresh consumption, salads, smoothies, and guacamole.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Pomelo',
+    name: 'Pomelo',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Rich in vitamin C, supports immune health, and is a high-value citrus crop.',
+    uses: 'Fresh fruit, juice, salads, and marmalade.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Calamansi',
+    name: 'Calamansi',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'High in vitamin C, easy to grow, and productive year-round.',
+    uses: 'Juice, marinades, sauces, and herbal drinks.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Guyabano',
+    name: 'Guyabano',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Rich in vitamin C and fiber, nutritious fruit, and a popular backyard tree.',
+    uses: 'Fresh fruit, juice, ice cream, and smoothies.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Atis',
+    name: 'Atis',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Good source of dietary fiber, rich in vitamins and minerals, and easy to grow.',
+    uses: 'Fresh fruit, desserts, and smoothies.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Santol',
+    name: 'Santol',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Rich in fiber, good shade tree, and adaptable to tropical climates.',
+    uses: 'Fresh fruit, candies, preserves, and cooking.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Chico',
+    name: 'Chico',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Rich in natural sugars, good source of dietary fiber, and long productive life.',
+    uses: 'Fresh fruit, milkshakes, and desserts.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Lipote',
+    name: 'Lipote',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Rich in antioxidants, supports native biodiversity conservation, and is an attractive ornamental tree.',
+    uses: 'Fresh fruit, wine, jam, and juice.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Mabolo',
+    name: 'Mabolo',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Rich in vitamins, a native Philippine fruit, and supports biodiversity.',
+    uses: 'Fresh fruit, jams, and desserts.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Tamarind',
+    name: 'Tamarind',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Rich in antioxidants, drought tolerant, and an excellent shade tree.',
+    uses: 'Juice, candies, sauces, and cooking.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Breadfruit',
+    name: 'Breadfruit',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Excellent food security crop, high carbohydrate content, and productive for many years.',
+    uses: 'Boiled, fried, baked, and flour production.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Macopa',
+    name: 'Macopa',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Refreshing low-calorie fruit, fast-growing, and attractive ornamental.',
+    uses: 'Fresh fruit, fruit salads, and juice.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Cacao',
+    name: 'Cacao',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'High-value cash crop, supports agroforestry, and rich in antioxidants.',
+    uses: 'Chocolate, cocoa powder, cocoa butter, and beverages.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Mulberry',
+    name: 'Mulberry',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Rich in vitamin C and iron, supports silkworm culture, and attracts birds.',
+    uses: 'Fresh fruit, jam, juice, and dried fruit.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Meyer Lemon',
+    name: 'Meyer Lemon',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Rich in vitamin C, highly productive, and attractive ornamental.',
+    uses: 'Juice, baking, cooking, and drinks.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Millarosa Lemon',
+    name: 'Millarosa Lemon',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'High vitamin C content, productive citrus tree, and suitable for backyard orchards.',
+    uses: 'Juice, cooking, baking, and fresh beverages.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Kaffir Lime',
+    name: 'Kaffir Lime',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Aromatic culinary herb, rich in essential oils, and an excellent container plant.',
+    uses: 'Thai and Southeast Asian cuisine, essential oils, and herbal products.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Passion Fruit',
+    name: 'Passion Fruit',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Rich in vitamins A and C, high in dietary fiber, and a productive vine.',
+    uses: 'Juice, desserts, fresh fruit, and flavoring.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Tambis',
+    name: 'Tambis',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Refreshing fruit, attractive ornamental, and easy to grow.',
+    uses: 'Fresh fruit, fruit salads, and juice.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Miracle Fruit',
+    name: 'Miracle Fruit',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Unique taste-modifying fruit, suitable for home gardens, and an interesting educational plant.',
+    uses: 'Fresh berries, taste-testing events, and specialty gardening.',
+    publishedBy: 'Oikos Orchard and Farm'
+  },
+  {
+    id: 'Kalumpit',
+    name: 'Kalumpit',
+    type: 'Fruit Tree',
+    image: 'assets/miyawaki-forest.svg',
+    benefits: 'Supports native biodiversity, serves as a wildlife food source, and is adapted to local conditions.',
+    uses: 'Fresh fruit, traditional preserves, and reforestation.',
+    publishedBy: 'Oikos Orchard and Farm'
   }
 ];
 
