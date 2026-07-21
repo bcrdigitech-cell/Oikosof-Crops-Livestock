@@ -121,7 +121,7 @@ const catalog = [
         <p>Because of habitat loss and fragmentation, propagation programs, reforestation, and protection of native forests are important for its long-term survival.</p>
       </div>
     `,
-    publishedBy: 'Oikos Orchard and Farm'
+    publishedBy: 'Oikos Orchard and Farm 7/21/2026'
   },
   {
     id: 'Philippine Cinnamon',
