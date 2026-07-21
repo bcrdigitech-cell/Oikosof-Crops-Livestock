@@ -25,7 +25,7 @@
 
       <main class="hero">
         <section class="hero-copy">
-          <p class="eyebrow">Customer access portal</p>
+          <p class="eyebrow">WELCOME TO OIKOS ORCHARD AND FARM</p>
           <h1>Discover crops and livestock with confidence.</h1>
           <p class="hero-text">
             Welcome guests and customers to a refined platform where agricultural information is easy to explore and understand.
@@ -35,6 +35,11 @@
 
         <aside class="hero-card">
           <h2>Trusted information</h2>
+          <p class="hero-card-copy">Search the catalog directly from here and view matched items instantly.</p>
+          <form class="search-form" id="searchForm">
+            <input id="searchInput" type="search" placeholder="Try rice, corn, goat..." />
+            <button type="submit">Search</button>
+          </form>
           <ul>
             <li>Crop and livestock search</li>
             <li>Benefits and uses overview</li>
@@ -46,14 +51,9 @@
       <section class="search-section" id="searchSection" aria-live="polite">
         <div class="section-heading">
           <p class="eyebrow">Search portal</p>
-          <h2 id="searchTitle">Search crops & livestock</h2>
-          <p id="searchMessage">Enter a crop or livestock name to view benefits, uses, and published details.</p>
+          <h2 id="searchTitle">Search results</h2>
+          <p id="searchMessage">Search results are shown below as you type or submit a query.</p>
         </div>
-
-        <form class="search-form" id="searchForm">
-          <input id="searchInput" type="search" placeholder="Try rice, corn, goat..." />
-          <button type="submit">Search</button>
-        </form>
 
         <div class="results-grid" id="results"></div>
       </section>

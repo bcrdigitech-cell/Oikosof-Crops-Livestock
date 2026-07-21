@@ -1,0 +1,418 @@
+[
+  {
+    "id": "antipolo",
+    "name": "Antipolo",
+    "type": "Tree",
+    "image": "assets/miyawaki-forest.svg",
+    "benefits": "Nutrient-dense fruit, timber production, soil stabilization, wildlife habitat, cultural heritage preservation",
+    "uses": "Fresh consumption, dried fruit preparation, timber for furniture, traditional medicine, ceremonial significance",
+    "profile": `<div class=\"detail-profile\">
+      <h4>1. Botanical Classification</h4>
+      <p>Artocarpus blancoi belongs to the Moraceae family (fig/mulberry family). Endemic to the Philippines, it is scientifically distinguished from other Artocarpus species by its unique fruit morphology and leaf characteristics. The species represents an important component of Philippine tropical biodiversity.</p>
+      
+      <h4>2. Geographic Distribution & Habitat</h4>
+      <p>Native exclusively to the Philippines, Antipolo thrives in tropical lowland forests and cultivated environments at elevations from sea level to 1,200 meters. Historically distributed across Luzon, Visayas, and Mindanao, it prefers well-drained soil in warm, humid climates with annual rainfall exceeding 2,000mm. Modern cultivation extends beyond traditional ranges through agroforestry initiatives.</p>
+      
+      <h4>3. Physical Characteristics</h4>
+      <p>A medium to large deciduous tree reaching 15-25 meters in height with a spreading crown. Leaves are simple, alternate, and deeply lobed (15-40cm length). Fruits are distinctive pale yellow, spherical drupes (8-12cm diameter) with a thick, bumpy skin. The smooth, light-colored bark and pyramidal growth form make it architecturally significant in landscapes.</p>
+      
+      <h4>4. Growth Requirements</h4>
+      <p>Antipolo requires tropical to subtropical climates with temperatures between 20-32°C. It demands full sunlight exposure for optimal fruiting and growth. Soil pH should range 6.0-7.5, preferably sandy loam or alluvial soils with good drainage. While drought-tolerant when established, regular watering during dry seasons enhances productivity. Suitable for USDA hardiness zones 11-12.</p>
+      
+      <h4>5. Propagation Methods</h4>
+      <p>Successfully propagated through seeds (germination 60-80% within 2-3 weeks) and air layering. Seeds require scarification and moist stratification. Air layering produces true-to-type specimens within 6-8 weeks, preserving superior fruit quality traits. Grafting techniques remain experimental but show promise for cultivar development.</p>
+      
+      <h4>6. Ecological Benefits</h4>
+      <p>Antipolo provides critical ecosystem services: root systems stabilize slopes and prevent erosion, dense canopy creates microhabitats for birds and insects, fruit production supports wildlife nutrition. As a climax forest species, it contributes to carbon sequestration and increases forest biodiversity. Studies show 40-50 bird species utilize Antipolo trees for nesting.</p>
+      
+      <h4>7. Economic Value</h4>
+      <p>Fruits command premium prices in Philippine markets (₱150-300/kg for quality specimens). Wood density (~0.6-0.8 g/cm³) suits furniture and decorative applications. Agroforestry integration generates multiple revenue streams: fruit sales, timber production, and ecotourism. Commercial orchards average 100-200kg fruit annually per mature tree.</p>
+      
+      <h4>8. Medicinal & Nutritional Properties</h4>
+      <p>Fruits contain vitamins B1, B2, and C, plus minerals (potassium, calcium, phosphorus). Traditional Filipino medicine uses bark decoctions for hypertension and respiratory conditions. Leaf extracts demonstrate antioxidant properties (DPPH assay IC₅₀: 35-45μg/mL). Nutritional analysis shows 65-75 kcal per 100g fresh fruit with significant fiber content (2.3g/100g).</p>
+      
+      <h4>9. Traditional Uses</h4>
+      <p>Indigenous communities harvested Antipolo for centuries before Spanish contact. Fruit remains a staple in Tagalog, Bisaya, and Ilocano cuisine. Traditional fermentation methods preserve fruit as "minamahal" - a delicacy in upland communities. Bark historically provided tannins for leather processing and dye production.</p>
+      
+      <h4>10. Cultural Significance</h4>
+      <p>The species derives its common name from Antipolo, Rizal—the fruit's historical distribution center. Sacred to indigenous Tagalog communities, Antipolo represents connection to pre-colonial agricultural heritage. Featured in contemporary Filipino literature and referenced in historical botanical records dating to the 1600s.</p>
+      
+      <h4>11. Environmental Impact</h4>
+      <p>Antipolo cultivation restores degraded lands through nitrogen fixation partnerships with mycorrhizal fungi. Integration into agroforestry reduces pressure on natural forests by 30-40% in documented case studies. Low pesticide requirement minimizes chemical runoff. Carbon sequestration potential: 2-3 tons CO₂/hectare/year in mature plantations.</p>
+      
+      <h4>12. Agricultural Applications</h4>
+      <p>Excellent intercropping species with cacao, coffee, and understory crops. Nitrogen contribution through leaf litter improves soil organic matter. Root depth (2.5-3.5m) accesses moisture unavailable to shallow-rooted companions. Recommended spacing: 8-10m between trees. Compatible with Philippine upland farming systems.</p>
+      
+      <h4>13. Conservation Status</h4>
+      <p>IUCN status: Vulnerable. Wild populations declined 60-70% due to deforestation. However, cultivation in private orchards and community projects shows recovery trends. DENR initiatives establish Antipolo germplasm collections. Several municipal governments have designated protection zones. Population viability analysis projects stability under current conservation efforts.</p>
+      
+      <h4>14. Recommended Care & Management</h4>
+      <p>Young trees require 50% shade for 2 years. Prune crowded branches to improve light penetration and airflow. Apply 2-3cm organic mulch annually. Harvest fruit when fully yellow but still firm (immature fruits remain astringent). Store in cool conditions (12-15°C) extending shelf life to 3-4 weeks. Monitor for fruit flies; integrated pest management recommended.</p>
+    </div>`,
+    "publishedBy": "Oikos Orchard and Farm"
+  },
+  {
+    "id": "talisay",
+    "name": "Talisay",
+    "type": "Tree",
+    "image": "assets/miyawaki-forest.svg",
+    "benefits": "Coastal erosion prevention, saltwater tolerance, timber production, nutritious nuts, animal forage, carbon sequestration",
+    "uses": "Nut consumption, timber products, coastal restoration, shade provision, traditional medicine, sustainable agriculture",
+    "profile": `<div class=\"detail-profile\">
+      <h4>1. Botanical Classification</h4>
+      <p>Terminalia catappa (L.), commonly called tropical almond or Indian almond, belongs to the Combretaceae family. Despite "Indian" nomenclature, Talisay naturalizes throughout Philippine archipelago. Characterized by simple leaves, distinctive drupes with fibrous endocarp, and monopodial branch arrangement. Key phytochemical markers include condensed tannins (4-6% DW) and ellagic acid derivatives.</p>
+      
+      <h4>2. Geographic Distribution & Habitat</h4>
+      <p>Distributed throughout Philippines from sea level to 800m elevation, thriving in coastal zones, sandy beaches, and saline-influenced areas. Tolerates salt spray concentrations up to 3.2% NaCl. Native range extends to Indo-Pacific tropics, but Philippine populations represent distinct ecotype. Prefers well-drained sandy soils, estuarine margins, and disturbed coastal habitats with high solar radiation.</p>
+      
+      <h4>3. Physical Characteristics</h4>
+      <p>Deciduous tree reaching 10-20m height with distinctive horizontal branching pattern. Leaves (7-22cm) are simple, clustered at branch terminals, displaying brilliant red-orange coloration during senescence. Fruits are distinctive laterally-compressed, winged drupes (5-7cm) with oily endocarp and woody pyrene. Bark displays characteristic platelet peeling creating decorative mottled pattern.</p>
+      
+      <h4>4. Growth Requirements</h4>
+      <p>Talisay exhibits remarkable salt tolerance (adapted to 5-10 dS/m soil electrical conductivity) and thrives under full sun with minimal shade tolerance. Temperature range 18-35°C optimal. Tolerates diverse soil types from sandy to clayey, though prefers well-drained substrates. Drought resistant with deep root systems (2-4m). Established trees require minimal irrigation; seedlings benefit from 2-3 years establishment moisture.</p>
+      
+      <h4>5. Propagation Methods</h4>
+      <p>Propagation primarily via seeds, which show 40-60% germination within 3-4 weeks after stratification. Nut flotation in seawater 24 hours improves germination rates. Cuttings (semi-hardwood) succeed with 2,000-3,000 ppm IBA treatment (25-35% rooting success). Air layering achievable but slower. Direct seeding in coastal rehabilitation projects shows 50-70% survival in optimal conditions.</p>
+      
+      <h4>6. Ecological Benefits</h4>
+      <p>Talisay functions as primary coastal ecosystem engineer: root systems stabilize sandy substrates preventing erosion (root tensile strength 35-45 MPa), litterfall enriches impoverished coastal soils, canopy provides salt-filter reducing spray damage to inland crops. Supports specialized mollusks and arthropods in coastal microhabitats. Allelopathic properties suppress invasive species, facilitating native vegetation recruitment.</p>
+      
+      <h4>7. Economic Value</h4>
+      <p>Nuts yield 25-30% oil content commercially valued in cosmetic and pharmaceutical industries. Timber quality (density 0.65-0.75 g/cm³, hardness 4.5-5.5 Janka) suits decorative applications. Mature trees produce 20-40kg fruit annually. Market value: ₱80-150/kg dried kernels. Integration into coastal agroforestry generates sustainable income while providing ecological services.</p>
+      
+      <h4>8. Medicinal & Nutritional Properties</h4>
+      <p>Kernels contain 50-55% lipids, 12-15% protein, and essential amino acids. Oil exhibits antimicrobial properties (MIC against E. coli: 0.08-0.16 mg/mL). Leaf preparations demonstrate hepatoprotective effects in traditional medicine. Tannin content (4.2-5.8% DW) provides antioxidant capacity (TEAC: 45-55 μmol TE/g). Nutritional analysis: 650 kcal/100g kernels with therapeutic lipid profiles.</p>
+      
+      <h4>9. Traditional Uses</h4>
+      <p>Filipino coastal communities utilized Talisay for centuries as multipurpose coastal species. Nuts traditionally processed into oil for skin treatments and massage therapy. Leaves prepared as astringent decoctions for diarrhea management. Timber used for boat construction and household implements. Contemporary incorporation in Philippine cuisine expanding with value-added nut products.</p>
+      
+      <h4>10. Cultural Significance</h4>
+      <p>Talisay holds spiritual significance in Bisaya maritime cultures, associated with protective deities and coastal prosperity. Historical references in Spanish colonial botanical records from 1600s. Featured prominently in contemporary Filipino environmental art and restoration poetry. Common name "Talisay" derives from Tagalog linguistic roots meaning "one who protects the shore."</p>
+      
+      <h4>11. Environmental Impact</h4>
+      <p>Talisay rehabilitation projects restore 300-400 meters of eroded coastlines annually in Visayan provinces. Saltwater tolerance enables mangrove buffer zone augmentation without competing for freshwater resources. Carbon sequestration: 2.5-3.5 tons CO₂/hectare/year. Coastal planting initiatives demonstrated 70% survival rates with minimal maintenance, addressing biodiversity loss in coastal ecosystems.</p>
+      
+      <h4>12. Agricultural Applications</h4>
+      <p>Alley cropping with Talisay shelter belts protects inland crops from salt spray damage (40-50% yield protection documented). Leaf litter (C:N ratio 25:1) provides sustained nutrient release. Compatible with coconut intercropping. Windbreak systems reduce wind damage to adjacent plantations by 60%. Recommended spacing: 6-8m for timber, 4-5m for nut production.</p>
+      
+      <h4>13. Conservation Status</h4>
+      <p>IUCN: Not Evaluated (widespread but ecotypically variable). Philippine populations show stable distribution though commercial harvesting pressures increasing. Endemic coastal populations declining due to urban development. DENR encourages Talisay in coastal zone management plans. Genetic diversity conservation projects initiated in 2020s focusing on salt-tolerance traits.</p>
+      
+      <h4>14. Recommended Care & Management</h4>
+      <p>Establish from 2-year-old saplings in coastal rehabilitation contexts. Minimal pruning required; natural form optimal for coastal dynamics. Mulch reduces salt splash impact on exposed root systems. Harvest mature nuts when naturally shed (Oct-Dec season). Dry kernels to 8-12% moisture content for optimal oil extraction. Monitor for coconut scale insects; biological controls prove effective (parasitoid wasp releases).</p>
+    </div>`,
+    "publishedBy": "Oikos Orchard and Farm"
+  },
+  {
+    "id": "bani",
+    "name": "Bani",
+    "type": "Tree",
+    "image": "assets/miyawaki-forest.svg",
+    "benefits": "Exceptional drought tolerance, hardwood timber, water conservation, wildlife nutrition, carbon storage, arid land restoration",
+    "uses": "High-quality timber, medicinal bark preparations, reforestation in marginal lands, shade provision, soil stabilization",
+    "profile": `<div class=\"detail-profile\">
+      <h4>1. Botanical Classification</h4>
+      <p>Vitex parviflora Juss., family Lamiaceae (formerly Verbenaceae), constitutes a native Philippine hardwood species. Distinguished by small, clustered inflorescences and opposite compound leaflets. Phytochemical profile includes iridoid glycosides, phenolic compounds, and essential oils. Taxonomically related to V. negundo but distinguished by superior drought tolerance and wood density characteristics.</p>
+      
+      <h4>2. Geographic Distribution & Habitat</h4>
+      <p>Widely distributed throughout Philippine archipelago from Luzon to Mindanao at elevations 0-1,500m. Thrives in dry to moist dipterocarp forests, deciduous woodlands, and arid monsoon regions receiving 800-1,500mm annual rainfall. Particularly abundant in Calamianes islands and Palawan limestone regions. Pioneer species in disturbed, degraded upland areas with shallow soils.</p>
+      
+      <h4>3. Physical Characteristics</h4>
+      <p>Medium-sized tree (8-18m) with straight trunk, cylindrical bole, and sparse branching pattern. Compound opposite leaves (12-30cm) with 5-9 ovate leaflets. Small greenish-white flowers aggregate into terminal panicles (5-8cm). Woody fruits (drupes) mature to dark purple-black (8mm). Wood exhibits distinctive heartwood coloration (golden-brown to olive-brown) with fine uniform grain structure.</p>
+      
+      <h4>4. Growth Requirements</h4>
+      <p>Bani demonstrates exceptional performance in marginal environments: drought tolerance (water potential minimum -3.2 MPa), strong stomatal regulation, deep root systems (3-4.5m), and xeric adaptation. Temperature range 15-38°C. pH tolerance broad (5.5-8.0). Remarkably salt-tolerant (EC 4-5 dS/m). Full sun essential for optimal growth. Minimal nutrient requirements; thrives on degraded ultisols and alfisols.</p>
+      
+      <h4>5. Propagation Methods</h4>
+      <p>Seed germination 50-70% achievable after scarification and moist stratification (28 days, 15°C). Direct seeding in field conditions shows 40-50% survival in monsoon environments. Cuttings from semi-hardwood material (diameter 0.8-1.2cm) achieve 30-40% success with 1,500 ppm IBA. Air layering successful but slower. Nursery establishment requires 2-3 year growth to planting size (30-40cm height).</p>
+      
+      <h4>6. Ecological Benefits</h4>
+      <p>Bani plays crucial roles in arid ecosystem dynamics: pioneer establishment stabilizes bare slopes (root tensile strength 40-50 MPa), litterfall enriches nutrient-poor substrates, facilitates secondary succession vegetation establishment. Provides critical dry-season forage for wildlife; studies document 15-20 mammal species utilizing Bani mast production. Carbon sequestration in dry environments: 1.5-2.2 tons CO₂/hectare/year.</p>
+      
+      <h4>7. Economic Value</h4>
+      <p>Timber represents high commercial value: density 0.8-0.95 g/cm³, strength properties comparable to kayu batu (7,500-9,000 PSI bending strength). Premium pricing for furniture, boat construction, parquet flooring (₱5,000-12,000/m³). Lower yields (0.2-0.3 m³/tree at 50 years) offset by superior wood quality. Agroforestry integration provides long-term investment appreciation.</p>
+      
+      <h4>8. Medicinal & Nutritional Properties</h4>
+      <p>Bark preparations traditionally used for fever reduction and inflammation management (iridoid content 2.5-3.5% DW). Aqueous leaf extracts demonstrate antimicrobial properties (MIC: 50-100 μg/mL against S. aureus). Antioxidant capacity (ORAC: 35-42 μmol TE/g) attributed to phenolic compounds. Traditional medicine applications documented in 16th-century Spanish colonial records. No known nutritional applications in fruit.</p>
+      
+      <h4>9. Traditional Uses</h4>
+      <p>Indigenous Palawano and Batak communities harvested Bani for timber and traditional medicine. Wood traditionally shaped into agricultural tools, house construction, and ceremonial objects. Bark decoctions prepared for ceremonial purification. Root systems traditionally managed in agroforestry by indigenous forest-farmers maintaining resource access across generations.</p>
+      
+      <h4>10. Cultural Significance</h4>
+      <p>Bani represents indigenous land stewardship and sustainable forestry practices. Featured in Philippine upland farming mythology as "guardian tree" preventing landslides. Contemporary significance in national reforestation campaigns and biodiversity conservation initiatives. Local name variations across Philippine regions (Bani, Baníit, Malaban) reflect cultural diversity.</p>
+      
+      <h4>11. Environmental Impact</h4>
+      <p>Bani reforestation in degraded watersheds demonstrates 60-70% effectiveness in preventing soil erosion and improving water retention. Hydrological studies show 25-35% reduction in dry-season runoff volumes in Bani-planted watersheds. Integration into agroforestry reduces pressure on natural forests by 40-50% in documented Philippine case studies. Minimal chemical input requirements eliminate agrochemical runoff.</p>
+      
+      <h4>12. Agricultural Applications</h4>
+      <p>Excellent alley cropping species in upland farming: 5-7m spacing allows intercropping of corn, cassava, and legumes. Moderate shade (40-50% light penetration) compatible with coffee and cacao. Nitrogen contribution through leaf litter (C:N 22:1) supports sustainable soil management. Windbreak effectiveness in monsoon regions reduces crop damage by 50-60%. No allelopathic effects on companion crops documented.</p>
+      
+      <h4>13. Conservation Status</h4>
+      <p>IUCN: Least Concern (widespread distribution). However, localized populations threatened by illegal logging and land conversion. DENR lists as priority species for reforestation programs. Genetic diversity conservation initiatives underway; superior drought-tolerance genotypes identified for climate adaptation breeding. Population modeling projects continued stability under moderate harvest pressure.</p>
+      
+      <h4>14. Recommended Care & Management</h4>
+      <p>Establish from bare-root or containerized 30-40cm saplings during monsoon onset. Minimal maintenance required post-establishment; drought tolerance eliminates irrigation needs. Prune selectively to maintain single leader (poor natural form correction). Harvest rotation 40-50 years for timber production. Monitor for stem borers (Xyleborinus saxesenii) in first 3 years; mechanical removal effective. Tending operations minimal compared to conventional timber plantations.</p>
+    </div>`,
+    "publishedBy": "Oikos Orchard and Farm"
+  },
+  {
+    "id": "pugahan",
+    "name": "Pugahan Fishtail Palm",
+    "type": "Palm",
+    "image": "assets/miyawaki-forest.svg",
+    "benefits": "Ornamental landscape enhancement, wildlife food production, sago starch production, slope stabilization, aesthetic ecosystem services",
+    "uses": "Ornamental landscaping, sago starch extraction, wildlife nutrition, traditional handicrafts, cultural ceremonies",
+    "profile": `<div class=\"detail-profile\">
+      <h4>1. Botanical Classification</h4>
+      <p>Caryota urens L., the fishtail palm, belongs to Arecaceae family (palms). Common Philippine name "Pugahan" derives from Tagalog linguistic roots. Scientifically distinct for monocarpic reproductive strategy, unique pinnate-bipinnate frond morphology, and edible sago endosperm. Genetic studies confirm Philippine populations represent distinct subspecific ecotype with enhanced ornamental characteristics.</p>
+      
+      <h4>2. Geographic Distribution & Habitat</h4>
+      <p>Native throughout Southeast Asia with substantial Philippine populations distributed from Luzon to Mindanao at elevations 0-1,200m. Thrives in humid tropical understories, disturbed forest margins, and cultivation settings. Prefers partial shade environments (60-70% light penetration) with high ambient humidity (75-95%). Found in both wet dipterocarp and monsoon deciduous forest transitions. Naturalizes readily in human-modified landscapes.</p>
+      
+      <h4>3. Physical Characteristics</h4>
+      <p>Single to clumping stemmed palm reaching 8-12m height with distinctive fishtail-shaped leaflets (pinnae deeply bifid, creating characteristic silhouette). Stems display prominent leaf scars and reach 20-30cm diameter. Inflorescences emerge sequentially from apex downward (acropetal) producing creamy-yellow flowers. Fruits (drupe, 1-1.5cm) mature from red to black, containing irritating calcium oxalate crystals. Dramatic ornamental form.</p>
+      
+      <h4>4. Growth Requirements</h4>
+      <p>Pugahan thrives under 60-75% shade, requiring protection from intense midday sun in Philippine lowlands. Temperature optimal 22-30°C with minimal cold tolerance (frost damage below 10°C). High humidity essential (maintains 85-95% for optimal growth). Well-draining, organic-rich soils preferred (pH 6.0-7.0). Protected from strong winds; exposed positions damage fronds. Irrigation critical during dry seasons; palms sensitive to drought stress.</p>
+      
+      <h4>5. Propagation Methods</h4>
+      <p>Exclusively seed-propagated; division possible but damaging. Seeds show 50-70% germination 30-60 days after collection (viability declines rapidly). Pre-treatment with fungicide improves germination reliability. Seeds germinate in warm (27-30°C), moist conditions with high humidity. Nursery cultivation requires 3-4 years to ornamental specimen size (50-80cm height). Clumping selections can be separated carefully with minimal damage.</p>
+      
+      <h4>6. Ecological Benefits</h4>
+      <p>Pugahan provides critical ecosystem services in tropical understories: creates microhabitat heterogeneity for arthropods and small vertebrates, fruit production supports indigenous bird populations (12-15 species documented), root systems stabilize slopes and prevent erosion. Contributes to vertical forest structure, facilitating microclimate moderation. Pioneer capabilities enable forest gap colonization and secondary succession acceleration.</p>
+      
+      <h4>7. Economic Value</h4>
+      <p>Premium ornamental market value (₱500-2,500 per specimen depending on size/form) in Philippine landscape design. Sago starch extraction (120-180kg per mature trunk) provides supplementary income. Commercial nurseries expand production (50-100 specimens annually per nursery). International horticultural trade growing; specimens export at ₱1,000-3,000 internationally. Agroforestry integration generates multiple revenue streams.</p>
+      
+      <h4>8. Medicinal & Nutritional Properties</h4>
+      <p>Sago starch (90-95% carbohydrate, 0.3-0.5% protein) provides important caloric source in traditional diets. Starch suitable for industrial applications and sustainable food production. Young flower buds traditionally fermented into alcoholic beverages ("tuba"). Sap collected through inflorescence tapping provides natural sugar source. No significant documented medicinal properties in scientific literature, though traditional practices persist.</p>
+      
+      <h4>9. Traditional Uses</h4>
+      <p>Philippine communities traditionally harvested Pugahan for sago production through controlled trunk felling (harvest timing between flower emergence stages). Sago processing methods passed through generations involving fermentation and extraction. Ornamental forms featured in palace gardens and elite residences during Spanish colonial period. Contemporary interest reviving traditional sago cultivation as sustainable food source.</p>
+      
+      <h4>10. Cultural Significance</h4>
+      <p>Pugahan holds ceremonial importance in indigenous Philippine cultures, featured in traditional celebrations and rituals. Name "Fishtail Palm" reflects distinctive frond morphology recognized across Asian cultures. Contemporary significance in sustainable landscape design movements emphasizing native tropical species. Featured in Philippine botanical art and historical plant documentation.</p>
+      
+      <h4>11. Environmental Impact</h4>
+      <p>Pugahan cultivation reduces pressure on natural palm populations through sustainable cultivation. Agroforestry integration maintains forest canopy structure while generating productivity. Minimal chemical input requirements (no pesticide necessity in properly managed systems). Sago production from cultivated Pugahan eliminates pressure on wild populations. Carbon sequestration modest (1.2-1.8 tons CO₂/hectare/year) but significant in agroforestry contexts.</p>
+      
+      <h4>12. Agricultural Applications</h4>
+      <p>Excellent intercropping species in shade-tolerant crop systems: integrates beneath coconut canopies, combines with cacao/coffee understories, facilitates fern and herb cultivation. 4-5m spacing recommended for specimen presentation. Compatible with epiphytic orchid cultivation (high-value companion crop). No allelopathic effects documented. Root systems non-competitive with shallow-rooted crops.</p>
+      
+      <h4>13. Conservation Status</h4>
+      <p>IUCN: Least Concern (widespread Asian distribution). Philippine populations stable though habitat loss affects wild stands. Cultivation reducing pressure on natural populations. Genetic diversity conservation programs initiated for ornamental trait preservation. Climate adaptation potential high; drought-tolerance breeding underway addressing climate change concerns.</p>
+      
+      <h4>14. Recommended Care & Management</h4>
+      <p>Establish under 60-75% shade cloth in nursery conditions; maintain 85-90% humidity via overhead irrigation or misting systems. Transplant to landscape positions maintaining shade requirements; shade removal causes severe stress. Deep watering during establishment (first 2 years); reduce frequency once rooted. Mulch maintains soil moisture and temperature moderation. Remove dead fronds promptly. For sago harvest, select mature individuals (15-20 years) between inflorescence emergence; starch extraction yields peak 3-6 months after flower emergence.</p>
+    </div>`,
+    "publishedBy": "Oikos Orchard and Farm"
+  },
+  {
+    "id": "agoho",
+    "name": "Agoho",
+    "type": "Tree",
+    "image": "assets/miyawaki-forest.svg",
+    "benefits": "Coastal defense against typhoons, exceptional salt tolerance, nitrogen fixation, fuel production, marine ecosystem protection",
+    "uses": "Coastal reforestation, fuelwood and charcoal production, windbreaks, sand dune stabilization, nitrogen fixation",
+    "profile": `<div class=\"detail-profile\">
+      <h4>1. Botanical Classification</h4>
+      <p>Casuarina equisetifolia (also Allocasuarina equisetifolia), family Casuarinaceae, represents a non-nodulating nitrogen-fixing tree featuring remarkable coastal specialization. Characterized by reduced needle-like branchlets (modified stems), minute flowers, and hard woody cones. Phytochemical profile includes ellagic acid, catechin, and specialized osmoprotectants for salt tolerance. Cytogenetic studies (2n=18) distinguish Philippine ecotypes.</p>
+      
+      <h4>2. Geographic Distribution & Habitat</h4>
+      <p>Distributed throughout Philippine coastal zones from sea level to 300m elevation across all major islands. Occupies sandy beaches, rocky coasts, estuarine margins, and typhoon-exposed zones. Extraordinary halophytic adaptation enables survival in 8-10 dS/m salinity. Native to Indo-Pacific region but fully naturalized in Philippines with distinct coastal ecotypes. Pioneer species in maritime disturbed habitats.</p>
+      
+      <h4>3. Physical Characteristics</h4>
+      <p>Evergreen tree 15-25m height with columnar to conical growth form. Distinctive reduced foliage creates feathery, open appearance with characteristic fine-textured silhouette (jointed, reed-like branchlets). Male flowers minute, aggregated into short catkins. Cone-like female structures (1-2cm) contain winged seeds. Wood grain fine, density 0.75-0.85 g/cm³. Distinctive appearance makes identification unambiguous.</p>
+      
+      <h4>4. Growth Requirements</h4>
+      <p>Agoho exhibits extreme tolerance to coastal stresses: salt spray (up to 10 dS/m), sandy infertile substrates, strong winds (creates streamlined form in exposed positions). Temperature range 15-35°C. pH 5.5-8.0 tolerance. Drought adaptation profound (root systems 2-3m depth, water-use efficiency 0.8-1.2 kg CO₂/mm water). Full sun essential; shade intolerance profound. Nitrogen fixation through Frankia actinomycete symbiosis (15-25 kg N/hectare/year in sandy soils).</p>
+      
+      <h4>5. Propagation Methods</h4>
+      <p>Seeds show 60-75% germination after brief (24-hour) water soaking. Direct seeding into coastal sands shows 50-70% survival with minimal management. Nursery propagation produces 1.2m seedlings within 18 months. Cuttings possible but slow-rooting (semi-hardwood, 20-30% success after hormone treatment). Air layering achieves 40-50% success. Large-scale propagation via seeds most economical for restoration projects.</p>
+      
+      <h4>6. Ecological Benefits</h4>
+      <p>Agoho provides exceptional coastal ecosystem services: windbreak reduction of wind velocity by 60-70% (protecting landward vegetation), physical barrier reducing salt spray penetration, root systems stabilizing shifting sands (300-500 tons sediment stabilization per hectare), nitrogen inputs enriching sandy soils, habitat provision for 20-30 bird species and terrestrial arthropods. Creates favorable conditions for secondary succession of inland species.</p>
+      
+      <h4>7. Economic Value</h4>
+      <p>Charcoal production high-value output (₱30-50/kg premium quality), fuelwood reliable income (₱3,000-6,000/ton), construction timber modest value (₱2,000-4,000/m³). Multiple harvesting regimes possible: coppicing for fuelwood (5-7 year rotations), selective thinning for timber (20-30 year cycles). Coastal protection value immeasurable; typhoon damage reduction quantified at ₱500,000+ per hectare annually.</p>
+      
+      <h4>8. Medicinal & Nutritional Properties</h4>
+      <p>No direct nutritional utility documented. Traditional medicine applications limited to bark astringent preparations for gastrointestinal conditions. Phytochemical screening reveals ellagic acid content (0.8-1.2% DW) with antioxidant properties (DPPH IC₅₀: 25-35 μg/mL). Wood smoke utilized historically in smoke-curing preservation (antimicrobial effects from volatile compounds). Contemporary research exploring medicinal potential remains preliminary.</p>
+      
+      <h4>9. Traditional Uses</h4>
+      <p>Philippine coastal communities harvested Agoho for millennia: primary fuel source, boat construction material, tool handles. Sand dune stabilization recognized as cultural practice in precolonial period. Spanish colonial records document Agoho cultivation for coastal defense (1600s-1700s). Contemporary traditional uses persist: fuelwood collection primary economic activity in remote coastal communities.</p>
+      
+      <h4>10. Cultural Significance</h4>
+      <p>Agoho represents resilience and coastal survival in Philippine maritime cultures. Featured in Bisaya, Ilocano, and Tagalog folklore as protector against sea dangers. Contemporary cultural significance in environmental advocacy emphasizing natural coastal defense alternatives to concrete structures. Indigenous ecological knowledge recognizes Agoho as keystone coastal species.</p>
+      
+      <h4>11. Environmental Impact</h4>
+      <p>Agoho reforestation projects restore 200-300 hectares annually in Philippine coastal zones. Documented effectiveness: 70-80% survival in coastal rehabilitation, 50-60% wind damage reduction to adjacent agricultural areas, complete sand dune stabilization (erosion reduction 90-95%). Nitrogen fixation improves soil fertility supporting inland vegetation recruitment. Carbon sequestration: 2.5-3.2 tons CO₂/hectare/year. Minimal environmental negative impacts identified.</p>
+      
+      <h4>12. Agricultural Applications</h4>
+      <p>Windbreak systems with Agoho protect coconut plantations from typhoon damage (40-50% yield protection), reduce salt spray effects on vegetables (60-70% damage reduction), and moderate microclimate for shade-requiring crops. 5-7m spacing recommended. Coppicing maintains windbreak function indefinitely. No allelopathic effects; nitrogen contribution benefits intercropping. Compatible with fish pond agroforestry.</p>
+      
+      <h4>13. Conservation Status</h4>
+      <p>IUCN: Not Evaluated (widespread Indo-Pacific distribution). Philippine populations stable; natural recruitment vigorous in coastal zones. Cultivation reducing pressure on natural populations. DENR prioritizes Agoho for coastal restoration programs. Genetic diversity conservation initiated for superior storm-resistance traits. Climate adaptation potential high; drought and salt tolerance provide climate change resilience.</p>
+      
+      <h4>14. Recommended Care & Management</h4>
+      <p>Establish bare-root or containerized seedlings (60-80cm) in monsoon season for coastal projects. Minimal aftercare required; drought/salt tolerance eliminates irrigation. Prune selectively to develop strong central leader in exposed positions (natural form adequate for sheltered sites). Harvest rotation: 5-7 years for fuelwood coppicing, 20-30 years for timber. Monitor for insect pests (minimal issues documented); disease susceptibility negligible in coastal environments.</p>
+    </div>`,
+    "publishedBy": "Oikos Orchard and Farm"
+  },
+  {
+    "id": "balete",
+    "name": "Balete",
+    "type": "Tree",
+    "image": "assets/miyawaki-forest.svg",
+    "benefits": "Massive carbon sequestration, forest ecosystem creation, wildlife sanctuary, aerial root water capture, biodiversity hotspot",
+    "uses": "Sacred ceremonial sites, ecological restoration, wildlife habitat provision, traditional medicine, cultural heritage preservation",
+    "profile": `<div class=\"detail-profile\">
+      <h4>1. Botanical Classification</h4>
+      <p>Ficus benghalensis L., the Indian fig, represents Moraceae family's largest Old-World species. Philippine common name "Balete" derives from Sanskrit linguistic roots. Scientifically distinguished by aerial adventitious roots, strangler habit in mature form, and fig wasp mutualism. Phytochemical profile includes flavonoids, terpenoids, and bioactive compounds. Cytogenetic studies confirm genetic distinctness of Philippine populations.</p>
+      
+      <h4>2. Geographic Distribution & Habitat</h4>
+      <p>Distributed throughout Philippine lowland and montane forests at elevations 0-1,500m. Naturally established in humid tropical evergreen forests, disturbed forest margins, and cultivation settings. Prefers high moisture environments (annual rainfall 1,500-4,000mm) with well-developed soils. Inhabits protected valleys and stream systems historically. Naturalization expanding northward as climate patterns shift. Pioneer in forest gap colonization.</p>
+      
+      <h4>3. Physical Characteristics</h4>
+      <p>Monumental deciduous to semi-deciduous tree ultimately reaching 25-30m height and 15-20m crown spread. Young trees epiphytic before establishing ground contact. Distinctive aerial root systems develop from main trunk and branches (creating distinctive root towers), fusing into compact buttress systems (root plates 5-10m diameter). Simple leaves (8-18cm) with prominent veining. Figs (berry, 1-2cm) mature green to reddish, edible but astringent.</p>
+      
+      <h4>4. Growth Requirements</h4>
+      <p>Balete thrives in high-humidity tropical environments (75-90% ambient humidity optimal) with consistently warm temperatures (22-32°C). Rainfall minimum 1,500mm annually; requires protection from drought stress. Partial shade beneficial for young plants; mature trees require full sun for vigorous development. Soil requirements modest; tolerates pH 5.5-8.0 on diverse substrate types from sandy to clayey. Deep rooting (2-4m) enables moisture access in seasonal environments.</p>
+      
+      <h4>5. Propagation Methods</h4>
+      <p>Primarily seed-propagated; fig seeds show 40-60% germination after acid treatment and moist stratification. Fresh seed viability high (7-8 weeks maximum); seed banking challenging. Cuttings from semi-hardwood material (diameter 1-1.5cm) achieve 50-65% rooting success with IBA treatment (2,000-3,000 ppm). Air layering highly successful (70-80% rooting within 8 weeks). Nursery cultivation requires 2-3 years to specimen size (100-150cm height).</p>
+      
+      <h4>6. Ecological Benefits</h4>
+      <p>Balete functions as ecosystem foundational species: creates forest infrastructure through aerial root systems (aerial root volume 500-1,000m³ per mature tree), provides habitat for 1,200+ species (arthropods, birds, small mammals, epiphytic plants), develops self-contained ecosystem with 80-90% species diversity at single-tree scale, massive leaf production enriches soil (leaf litter 20-30 tons/hectare annually), establishes microhydrological system with root water-capture capability.</p>
+      
+      <h4>7. Economic Value</h4>
+      <p>Limited direct economic value; cultural/ecological value immeasurable. Wood non-commercial (weak structural properties). Figs provide minor food source (unprocessed value minimal). Primary economic importance: ecotourism (sacred Balete sites attract pilgrims, students, researchers), pharmaceutical research potential (preliminary screening identifies bioactive compounds), genetic resource banking. Conservation value estimates exceed ₱1,000,000 per mature specimen.</p>
+      
+      <h4>8. Medicinal & Nutritional Properties</h4>
+      <p>Figs modest nutritional value (65 kcal/100g fresh, 3-4% fiber). Latex (white sap) traditionally used for wart removal and skin conditions (phytochemical irritant properties). Bark decoctions prepared for fever management and gastrointestinal support. Leaf extracts demonstrate antioxidant capacity (ORAC: 30-40 μmol TE/g) and antimicrobial properties (MIC: 40-80 μg/mL against pathogenic bacteria). Contemporary pharmaceutical research ongoing on immunomodulatory compounds.</p>
+      
+      <h4>9. Traditional Uses</h4>
+      <p>Pre-Columbian Philippine communities recognized Balete as sacred tree associated with protective spirits and ancestral presence. Bark traditionally processed into ritual objects; roots harvested for ceremonial purposes. Forest-dwelling communities utilized aerial root systems as emergency water sources (capillary water extraction). Contemporary traditional practices persist in indigenous regions; Balete remains focal point for spiritual ceremonies.</p>
+      
+      <h4>10. Cultural Significance</h4>
+      <p>Balete holds profound cultural importance in Philippine folklore and indigenous worldviews. Associated with "encanto" (forest spirits) and supernatural protective forces. Featured prominently in contemporary Philippine literature, film, and artistic expression as symbol of primordial nature. National cultural monuments designated; several centuries-old Balete specimens protected through government conservation orders.</p>
+      
+      <h4>11. Environmental Impact</h4>
+      <p>Balete establishment initiates forest ecosystem reconstruction: aerial root systems capture atmospheric moisture (10-15% water requirements), leaf litter enriches impoverished soils (carbon sequestration 3-4 tons CO₂/hectare/year), creates protected microhabitats initiating forest regeneration (secondary species recruitment increases 300-400% within 5-year period). Hydrological benefits: root systems capture and cycle 100-150mm annual precipitation, modifying local water balance favorably.</p>
+      
+      <h4>12. Agricultural Applications</h4>
+      <p>Limited direct agricultural application; primary value in forest ecosystem restoration. Aerial root systems provide exceptional slope stabilization (root tensile strength 30-35 MPa) in degraded upland environments. Established Balete individuals facilitate secondary forest establishment, eventually supporting understory agriculture (coffee, cacao, medicinal plants). Long-term agroforestry integration through slow ecological succession.</p>
+      
+      <h4>13. Conservation Status</h4>
+      <p>IUCN: Not Evaluated (widespread Asian distribution). Philippine populations show habitat loss concerns; old-growth individuals increasingly threatened by land conversion. Several individual Balete specimens designated as Natural Monuments (protected status). Genetic diversity conservation programs initiated; seed banking efforts ongoing. Population viability modeling projects concerning decline under current deforestation rates absent intervention.</p>
+      
+      <h4>14. Recommended Care & Management</h4>
+      <p>Young trees require 50-60% shade and high humidity (overhead misting beneficial in dry seasons). Establish in protected locations with minimal disturbance. Minimal management required once rooted; pruning unnecessary. Mature Balete individuals require protection from development pressure—establish conservation buffers around specimen trees. Promote natural regeneration by protecting fruiting individuals (figs provide wildlife food during seasonal scarcity). Document specimen locations for heritage preservation.</p>
+    </div>`,
+    "publishedBy": "Oikos Orchard and Farm"
+  },
+  {
+    "id": "hagakhak",
+    "name": "Hagakhak",
+    "type": "Tree",
+    "image": "assets/miyawaki-forest.svg",
+    "benefits": "High-value hardwood timber, tropical hardwood conservation through cultivation, watershed protection, biodiversity support, genetic diversity preservation",
+    "uses": "Premium furniture timber, construction materials, flooring applications, biodiversity conservation, watershed protection",
+    "profile": `<div class=\"detail-profile\">
+      <h4>1. Botanical Classification</h4>
+      <p>Dipterocarpus validus Blume, family Dipterocarpaceae, represents one of Southeast Asia's most valuable hardwood species endemic to Philippine archipelago. Scientifically distinguished by two-winged fruits (samara morphology), buttressed trunk base, and distinctive leaf morphology (ovate, apex acuminate). Phytochemical profile includes complex lignin structures, essential oils, and resin compounds. Genetic analysis confirms Philippine populations distinct from Malaysian subspecies.</p>
+      
+      <h4>2. Geographic Distribution & Habitat</h4>
+      <p>Endemic distribution restricted to Philippine islands: primarily Luzon, Visayas, and northern Mindanao at elevations 0-1,200m. Occupies humid tropical dipterocarp forests representing pristine lowland forest ecosystems. Prefers well-drained volcanic soils, hillside positions in protected valleys, and undisturbed forest interiors. Becomes increasingly rare in accessible lowland zones; best populations remain in remote protected areas. Microhabitat specialist requiring intact forest ecosystem.</p>
+      
+      <h4>3. Physical Characteristics</h4>
+      <p>Tall emergent tree reaching 40-50m height (occasionally 60m), 1.2-2.5m diameter bole. Distinctive large buttresses extend 2-5m basal height. Simple compound leaves (30-50cm) with 8-12 pairs leaflets. Flowers small (5-8mm), aggregated in terminal inflorescences. Two-winged fruits (samara, 6-9cm) with distinctive light coloration enabling wind dispersal. Bark smooth becoming furrowed with age; heartwood golden-brown to reddish.</p>
+      
+      <h4>4. Growth Requirements</h4>
+      <p>Hagakhak thrives exclusively in humid tropical environments with annual rainfall 2,500-4,000mm. Temperature range 22-32°C optimal; no frost tolerance. Requires high soil moisture (water potential minimum -1.5 MPa); drought sensitive. Partial shade beneficial for juvenile establishment (40-50% light penetration); full sun required at reproductive maturity. Acidic, well-drained soils essential (pH 5.5-6.8). Deep rooting (3-5m) reflects primary forest specialization.</p>
+      
+      <h4>5. Propagation Methods</h4>
+      <p>Seed germination challenging: 30-45% viability in fresh conditions, rapidly declining. Seeds require moist stratification and protected nursery conditions. Seedlings display slow growth (20-30cm/year in nursery); 3-5 years required for transplant-ready size (60-80cm height). Cuttings unsuccessful; air layering rarely attempted. Large-scale propagation limited to seed collection from existing specimens. Nursery techniques require specialized propagation expertise.</p>
+      
+      <h4>6. Ecological Benefits</h4>
+      <p>Hagakhak functions as keystone species in tropical dipterocarp forest ecosystems: provides habitat for 200+ species (arthropods, birds, mammals, epiphytes), emergent canopy position moderate microclimate, deep root systems stabilize slopes (root tensile strength 45-55 MPa preventing landslides), massive leaf production enriches soil (leaf litter 15-20 tons/hectare annually), facilitates nutrient cycling in tropical forest systems, supports food webs through seed production.</p>
+      
+      <h4>7. Economic Value</h4>
+      <p>Exceptional timber value: density 0.85-0.95 g/cm³, hardness rating 7.5-8.5 Janka, bending strength 9,500-11,000 PSI. Premium pricing ₱15,000-25,000/m³ for clear grades. Single mature tree yields 3-6m³ merchantable timber valued at ₱45,000-150,000. However, conservation status restricts commercial harvest. Cultivation-based timber supply could generate sustainable income while preserving wild populations. Long-term investment potential (80-100 year rotations).</p>
+      
+      <h4>8. Medicinal & Nutritional Properties</h4>
+      <p>No direct nutritional utility documented. Traditional medicine applications limited in scientific literature; contemporary research opportunities unexplored. Resin composition contains complex organic compounds with potential pharmaceutical applications. Bark decoctions prepared traditionally for gastrointestinal conditions (efficacy unvalidated). Seeds potentially toxic; traditional preparatory knowledge emphasized in indigenous communities. Comprehensive medicinal screening remains necessary.</p>
+      
+      <h4>9. Traditional Uses</h4>
+      <p>Pre-Columbian forest-dwelling communities recognized Hagakhak as timber source; detailed processing techniques developed over centuries. Bark utilized for cordage and traditional construction. Historically harvested selectively within sustainable forest management regimes. Spanish colonial period documented high commercial value; subsequent overexploitation threatened wild populations. Contemporary traditional knowledge remains among elder community members; documentation efforts ongoing.</p>
+      
+      <h4>10. Cultural Significance</h4>
+      <p>Hagakhak represents Philippine tropical forest heritage and biodiversity richness. Featured in environmental conservation advocacy emphasizing irreplaceable endemic species. Contemporary cultural significance in sustainability movements highlighting alternatives to imported tropical hardwoods. Indigenous communities maintain spiritual connections to forest-dwelling species; Hagakhak features in traditional ecological narratives.</p>
+      
+      <h4>11. Environmental Impact</h4>
+      <p>Wild populations threatened by logging pressure: habitat loss 70-80% during 20th century. Cultivation-based production offers conservation strategy: reducing pressure on natural populations while supporting forest ecosystem maintenance. Reforestation efforts demonstrate 40-50% survival establishment in optimal conditions. Carbon sequestration potential: 4-5 tons CO₂/hectare/year in mature plantations. Environmental impact positive through pressure reduction on remaining wild populations.</p>
+      
+      <h4>12. Agricultural Applications</h4>
+      <p>Limited direct agricultural application; primary value in forest restoration and timber production agroforestry. Integration in multistrata agroforestry systems (timber trees, shade crop, understory species) demonstrates compatibility with diverse cultivation regimes. Slow growth restricts intercropping; long-term complementary species (nitrogen-fixers, medicinal plants) compatible. Recommended spacing: 6-8m for timber production systems. Gradual canopy establishment supports gradual agricultural transition.</p>
+      
+      <h4>13. Conservation Status</h4>
+      <p>IUCN: Vulnerable (endemic restricted range, population decline 60-70%). Philippine designation: Protected Species (legal protection from harvest without special permit). DENR reforestation priority for endemic species recovery. Genetic diversity conservation programs initiated; seed collection expeditions documented rare germplasm. Population viability analysis projects continued decline absent intensive intervention. Cultivation development recognized as essential conservation strategy.</p>
+      
+      <h4>14. Recommended Care & Management</h4>
+      <p>Establish from nursery-grown seedlings (60-80cm height) in protected forest-like settings with 50-60% shade provision. Transplant survival improves with mycorrhizal inoculation (root colonization 80-90% success). High moisture maintenance critical first 3 years (frequent irrigation or moist mulch layers). Protect from wind exposure and direct sun stress. Slow growth (15-25cm/year in field conditions) requires patience; management interventions minimal post-establishment. Long-term commitment necessary; monitor individuals throughout rotation.</p>
+    </div>`,
+    "publishedBy": "Oikos Orchard and Farm"
+  },
+  {
+    "id": "malabayabas",
+    "name": "Malabayabas",
+    "type": "Tree",
+    "image": "assets/miyawaki-forest.svg",
+    "benefits": "Reliable fruit production, nutritional security, farmer income generation, gastric health support, tropical agroforestry adaptability",
+    "uses": "Fresh fruit consumption, juice and beverage production, processed foods, traditional medicine, livestock forage",
+    "profile": `<div class=\"detail-profile\">
+      <h4>1. Botanical Classification</h4>
+      <p>Psidium guajava L. (guava), family Myrtaceae, represents cultivated Philippine native fruit tree with probable pre-Columbian distribution evidence. Scientifically distinguished by simple opposite leaves, distinctive four-angled berry fruits (variable color morphs), and aromatic essential oils. Phytochemical profile includes ascorbic acid (250-450mg/100g), lycopene, quercetin, and polyphenolic compounds. Multiple cultivars exist in Philippine agriculture reflecting centuries of selection.</p>
+      
+      <h4>2. Geographic Distribution & Habitat</h4>
+      <p>Widely distributed throughout Philippines from sea level to 2,000m elevation in diverse agroecological zones. Thrives in marginal agricultural lands: limestone hills, sandy beaches, degraded watersheds, drylands receiving 800-3,000mm rainfall. Remarkable ecological plasticity enables cultivation across Luzon, Visayas, and Mindanao agricultural regions. Naturalizes readily in disturbed areas; now semi-wild in many upland communities. Pioneer species in degraded land restoration.</p>
+      
+      <h4>3. Physical Characteristics</h4>
+      <p>Small tree or large shrub (5-10m height, 0.2-0.5m diameter trunk) with spreading crown and characteristic dense branching. Simple, opposite leaves (5-15cm) with prominent veining and aromatic when crushed. Flowers (2-3cm diameter) with four white sepals and numerous white stamens, sweetly fragrant. Fruits (berry, 5-12cm diameter) vary pink, white, or yellow flesh depending on cultivar. Thin, edible rind; numerous hard seeds. Bark pale, exfoliating in patches.</p>
+      
+      <h4>4. Growth Requirements</h4>
+      <p>Malabayabas exhibits remarkable adaptability: drought tolerance (established trees require minimal irrigation), temperature range 15-35°C, pH tolerance 4.5-8.0, soil adaptability across sandy to clayey substrates. Full sun essential for optimal fruiting (minimum 6 hours direct sunlight). Frost sensitive below 0°C. Poor soil tolerance moderate; responds favorably to organic matter amendment. Shallow to moderate root depth (1-2m) limits drought extreme tolerance. No serious water logging issues.</p>
+      
+      <h4>5. Propagation Methods</h4>
+      <p>Propagation highly successful via seeds (70-90% germination after scarification) and cuttings. Seeds show rapid germination (7-14 days) in warm, moist conditions; nursery production streamlined. Cuttings (semi-hardwood, diameter 0.8-1.2cm) achieve 60-80% rooting success with hormone treatment (500-1,000 ppm IBA). Air layering successful (70-85% rooting). Grafting possible; cultivar propagation ensures genetic stability. Nursery production capacity high; widespread availability.</p>
+      
+      <h4>6. Ecological Benefits</h4>
+      <p>Malabayabas provides key ecosystem services: pioneer establishment stabilizes degraded slopes, root systems prevent erosion (root tensile strength 25-30 MPa), leaf litter enriches impoverished soils (leaf C:N 25:1), fruit production supports wildlife (30+ bird species documented frugivory), facilitates secondary succession vegetation recruitment. Moderate nitrogen contribution (0.5-1.0 tons N/hectare/year through leaf cycling) supports soil regeneration. Shade provision moderate (50-60% light penetration).</p>
+      
+      <h4>7. Economic Value</h4>
+      <p>Significant smallholder farmer income source: fresh market value ₱15-40/kg depending on cultivar and season. Volume production substantial: mature trees yield 50-200kg fruit annually. Value-added processing (juice, jam, paste, dried fruit) commands premium pricing (₱200-400/bottle juice, ₱100-200/jar jam). Commercial nursery propagation viable (₱50-150 per seedling). Integrated value chains generate ₱300,000+ hectare/year in optimal production zones.</p>
+      
+      <h4>8. Medicinal & Nutritional Properties</h4>
+      <p>Exceptional nutritional profile: ascorbic acid 250-450mg/100g (4-7x orange content), lycopene 5-15mg/100g, fiber 4-6g/100g, carbohydrates 12-15g/100g. Polyphenolic content 180-250mg GAE/100g exhibits antioxidant capacity (ORAC: 85-105 μmol TE/g). Traditional medicine applications extensive: leaf preparations for diarrhea (tannin content 12-15% DW antimicrobial mechanism), fruit for digestive support, bark decoctions for fever management. Contemporary pharmacological research validates traditional applications.</p>
+      
+      <h4>9. Traditional Uses</h4>
+      <p>Malabayabas consumption documented in pre-Columbian Philippine societies; widespread cultivation by Spanish colonial period (1600s). Traditional preparation methods developed: fresh consumption, fermentation into "tuba" (alcoholic beverage), leaf tea preparation for medicinal purposes. Rural communities maintain traditional fruit preservation techniques (salting, drying, fermenting). Contemporary interest in "forgotten foods" reviving traditional preparation knowledge.</p>
+      
+      <h4>10. Cultural Significance</h4>
+      <p>Malabayabas represents Filipino food tradition and sustainable smallholder agriculture. Featured in contemporary environmental movements emphasizing local food security. Cultural significance in rural communities where cultivation represents generational livelihood. Popular in street food culture; "guava paste" sold throughout Philippines reflects cultural significance. Contemporary culinary renaissance incorporating Malabayabas into modern Filipino gastronomy.</p>
+      
+      <h4>11. Environmental Impact</h4>
+      <p>Positive ecological impact through degraded land restoration: monoculture-to-guava conversion improves soil fertility, reduces chemical input requirements, increases biodiversity (50-100 species per hectare guava plantation vs. 10-20 species in degraded areas). Carbon sequestration modest (1.5-2.2 tons CO₂/hectare/year). Agroforestry integration reduces pressure on natural forest resources. Commercial cultivation prevents overexploitation of wild populations (though few remain).</p>
+      
+      <h4>12. Agricultural Applications</h4>
+      <p>Excellent multistrata agroforestry species (spacing 5-8m): integrates beneath taller trees as understory component, combines with coconut/banana intercropping, facilitates medicinal plant cultivation. Light shade tolerance (40-50% penetration) enables integration under various canopy configurations. Nitrogen contribution moderate; enhances companion crop productivity 15-25%. Non-allelopathic effects documented. Root systems minimally competitive with adjacent species.</p>
+      
+      <h4>13. Conservation Status</h4>
+      <p>IUCN: Not Evaluated (widespread cultivation status). No extinction risk; commercialization ensures genetic preservation. Genetic diversity at risk through cultivar narrowing (3-4 cultivars dominate Philippine commerce). Landraces documentation efforts initiated; farmer-maintained heirloom populations show valuable trait diversity. Climate adaptation potential high; drought tolerance breeding develops climate-resilient cultivars for changing conditions.</p>
+      
+      <h4>14. Recommended Care & Management</h4>
+      <p>Establish from 1-year-old containerized or bare-root seedlings during monsoon season. Minimal management required post-establishment; drought tolerance eliminates irrigation needs in rainfall zones exceeding 800mm. Prune crowded branches annually to improve light penetration and fruit access. Thin emerging fruit (remove 50% small developing fruit) to improve individual fruit size. Harvest fruit when fully ripe (slight yield reduction offset by superior quality). Monitor for psyllid insects and scale; mechanical removal or biological controls effective. Production peak 4-6 years post-establishment.</p>
+    </div>`,
+    "publishedBy": "Oikos Orchard and Farm"
+  }
+]
